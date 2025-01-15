@@ -1,8 +1,8 @@
-document.getElementById('enviar').addEventListener('click', function(event) {
+/*document.getElementById('enviar').addEventListener('click', function(event) {
     event.preventDefault();
     document.getElementById('caja-preguntas').style.display = 'flex';
     document.getElementById('caja-formulario').style.display = 'none';
-});
+});*/
 
 
 document.addEventListener('DOMContentLoaded', function() {
@@ -110,7 +110,7 @@ document.addEventListener('DOMContentLoaded', function() {
             document.querySelector('.overlay').style.display = 'none';
             document.querySelector('.spinner-popup').style.display = 'none';
             // Redirige a la siguiente URL después de enviar el formulario con éxito
-            window.top.location.href = 'https://www.lorenzano.co/trivia-gracias';
+            window.top.location.href = 'https://www.lorenzano.co/regreso-a-clase-lorenzano-gracias';
         }, 6000);
     }
         mostrarPopup();
