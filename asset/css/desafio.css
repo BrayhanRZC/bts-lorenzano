@@ -204,6 +204,10 @@ ps-2 {
             padding: 0px 20px;
             width: 100%;
         }
+        .campos1 {
+            padding: 0px 20px;
+            width: 100%;
+        }
 
 /** END COLUMNA DERECHA **/
 
@@ -386,6 +390,10 @@ label{
         }
 
         .campos{
+            width: 100%;
+        }
+    
+    .campos1{
             width: 100%;
         }
 
