@@ -23,7 +23,8 @@ font-family: "foco", sans-serif;
     font-style: normal;
     font-size: 20px;
     line-height: 1;
-    color:#FEF4D0;
+    color: #FEF4D0;
+    text-align:center;
 }
 
 ps-2 {
