@@ -2,14 +2,14 @@
     event.preventDefault();
     document.getElementById('caja-preguntas').style.display = 'flex';
     document.getElementById('caja-formulario').style.display = 'none';
-});
+});*/
 
 
 document.addEventListener('DOMContentLoaded', function() {
-    var pasoActual = 1;
-    var btnSiguiente = document.querySelector('.btn-siguiente');
-    var btnAtras = document.querySelector('.btn-atras');
-    var btnEnviar = document.querySelector('.btn-enviar');
+    //var pasoActual = 1;
+    //var btnSiguiente = document.querySelector('.btn-siguiente');
+    //var btnAtras = document.querySelector('.btn-atras');
+    //var btnEnviar = document.querySelector('.btn-enviar');
     var submitBtn = document.querySelector('#submitBtn');
 
     function showElement(element) {
@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     }
 
-    btnSiguiente.addEventListener('click', function() {
+    /*btnSiguiente.addEventListener('click', function() {
         if (pasoActual < 3) {
             var inputs = document.querySelectorAll('input[name="paso' + pasoActual + '"]:checked');
             if (inputs.length === 0) {
