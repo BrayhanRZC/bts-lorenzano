@@ -2,7 +2,7 @@
     event.preventDefault();
     document.getElementById('caja-preguntas').style.display = 'flex';
     document.getElementById('caja-formulario').style.display = 'none';
-});*/
+});
 
 
 document.addEventListener('DOMContentLoaded', function() {
@@ -59,15 +59,18 @@ document.addEventListener('DOMContentLoaded', function() {
         if (pasoActual === 1) {
             document.querySelector('.btn-atras').style.display = 'none';
         }
-    });
+    });*/
 
     submitBtn.addEventListener('click', function() {
         // Obtener datos del formulario de preguntas
-        var formDataPasos = new FormData(document.getElementById('form-pasos'));
+        */var formDataPasos = new FormData(document.getElementById('form-pasos'));*/
         // Obtener datos del formulario de desafío
         var formDataDesafio = new FormData(document.getElementById('desafioForm'));
     
         // Obtener los elementos del formulario de desafío
+var nombre = document.getElementById('salchicha').value;
+var nombre = document.getElementById('perro').value;
+var nombre = document.getElementById('sanduche').value;
         var nombre = document.getElementById('nombre').value;
         var email = document.getElementById('email').value;
         var celular = document.getElementById('celular').value;
@@ -84,6 +87,9 @@ document.addEventListener('DOMContentLoaded', function() {
     
     
         // Agregar datos del formulario de desafío al FormData correspondiente
+formDataDesafio.append('salchicha', salchicha);
+formDataDesafio.append('perro', perro);
+formDataDesafio.append('sanduche', sanduche);
         formDataDesafio.append('nombre', nombre);
         formDataDesafio.append('email', email);
         formDataDesafio.append('celular', celular);
