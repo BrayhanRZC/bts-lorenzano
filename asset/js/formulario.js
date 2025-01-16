@@ -63,7 +63,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     submitBtn.addEventListener('click', function() {
         // Obtener datos del formulario de preguntas
-        */var formDataPasos = new FormData(document.getElementById('form-pasos'));*/
+        //var formDataPasos = new FormData(document.getElementById('form-pasos'));//
         // Obtener datos del formulario de desafío
         var formDataDesafio = new FormData(document.getElementById('desafioForm'));
     
