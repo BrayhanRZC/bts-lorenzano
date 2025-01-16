@@ -103,8 +103,8 @@ formDataDesafio.append('sanduche', sanduche);
         formDataDesafio.append('hora', fechaHoraActual.toLocaleTimeString());
     
         // Combinar formDataPasos y formDataDesafio en un solo FormData
-        for (var pair of formDataPasos.entries()) {
-            formDataDesafio.append(pair[0], pair[1]);
+        //for (var pair of formDataPasos.entries()) {
+            //formDataDesafio.append(pair[0], pair[1]);
         }
     
         // Función para mostrar una ventana emergente o spinner mientras se envían los datos
