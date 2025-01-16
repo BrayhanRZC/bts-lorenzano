@@ -68,9 +68,9 @@ document.addEventListener('DOMContentLoaded', function() {
         var formDataDesafio = new FormData(document.getElementById('desafioForm'));
     
         // Obtener los elementos del formulario de desafío
-var nombre = document.getElementById('salchicha').value;
-var nombre = document.getElementById('perro').value;
-var nombre = document.getElementById('sanduche').value;
+var salchicha = document.getElementById('salchicha').value;
+var perro = document.getElementById('perro').value;
+var sanduche = document.getElementById('sanduche').value;
         var nombre = document.getElementById('nombre').value;
         var email = document.getElementById('email').value;
         var celular = document.getElementById('celular').value;
