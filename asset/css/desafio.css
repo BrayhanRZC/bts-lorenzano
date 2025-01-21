@@ -410,6 +410,15 @@ label{
         .campos{
             width: 100%;
         }
+
+      .popup-inner {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    width: 80%;
+    height: 90%;
+    overflow: scroll;
+  }
     
     .campos1{
             width: 100%;
@@ -579,7 +588,7 @@ label{
     background-color: white;
     padding: 20px;
     border-radius: 5px;
-    width: 90%;
+    width: 60%;
     height: 90%;
     overflow: scroll;
   }
